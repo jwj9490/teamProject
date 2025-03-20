@@ -22,9 +22,7 @@ public class TravelInsertController {
 	
 	@Autowired
 	TravelDao travelDao;
-	// travelList.jsp
-	// 오호
-	// 어허
+	// travelList.jsp에서 추가하기 클릭했을 때
 	@RequestMapping(value=command, method=RequestMethod.GET)
 	public String doInsertGet() {
 		
