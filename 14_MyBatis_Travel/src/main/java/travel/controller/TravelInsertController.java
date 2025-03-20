@@ -33,10 +33,11 @@ public class TravelInsertController {
 	// travelInsertForm�뿉�꽌 
 	@RequestMapping(value=command, method=RequestMethod.POST)
 	public ModelAndView doInsetPost(@ModelAttribute("travel") @Valid TravelBean tb, BindingResult result) {
-		// @ModelAttribute("travel") 蹂꾩묶 �꽕�젙 (jsp媛��꽌 �벝 蹂꾩묶)
+		// @ModelAttribute("travel") dsdadsadasdsadsadsadsadsadsadad
 		// kim 수정
 		// kim 한줄 추가
 		// dd
+		// 추가추가ㅜ차구차구차구차구ㅏㅊ구ㅏ추가ㅜ차구차
 		ModelAndView mav = new ModelAndView();
 		
 		if(result.hasErrors()) {
