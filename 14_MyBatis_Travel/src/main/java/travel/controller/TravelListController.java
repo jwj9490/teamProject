@@ -39,7 +39,7 @@ public class TravelListController {
 		
 		Map<String, String> map = new HashMap<String, String>();
 		map.put("whatColumn", whatColumn);
-		map.put("keyword", "%" + keyword + "%");
+		map.put("keyword", "%" + keyword + "%"); 
 		System.out.println("TravelListController doAction pageNumber : " + pageNumber);
 		
 		int totalCount = travelDao.getTotalCount(map);
