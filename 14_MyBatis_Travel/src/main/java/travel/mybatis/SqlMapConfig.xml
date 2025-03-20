@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+    PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+    "https://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases>
+		<typeAlias alias="MyTravel" type="travel.model.TravelBean"/>
+	</typeAliases>
+</configuration>    
+    
+<!-- SqlMapConfig.xml -->
+<!-- 여기에서 별칭 설정하는건데 별칭 안쓸거면 root-context.xml 수정하고 안써도됨 -->
