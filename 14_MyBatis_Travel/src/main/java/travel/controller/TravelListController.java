@@ -58,7 +58,7 @@ public class TravelListController {
 		ModelAndView mav = new ModelAndView();
 		mav.addObject("travelLists", lists);
 		mav.addObject("totalCount", totalCount);
-		mav.addObject("pageInfo", pageInfo);
+		mav.addObject("pageInfo", pageInfo);  
 		
 		mav.setViewName(getPage);
 		
