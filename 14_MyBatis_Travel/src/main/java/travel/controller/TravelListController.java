@@ -19,7 +19,7 @@ import utility.Paging;
 @Controller
 public class TravelListController {
 	
-	// travel.tv ìš”ì²­í•˜ë©´ travelList.jspë¡œ ì´ë™
+	// travel.tv ÇÑ±Û¿Ö ±úÁö³Ä°í
 	
 	private final String command = "list.tv";
 	private final String getPage = "travelList";

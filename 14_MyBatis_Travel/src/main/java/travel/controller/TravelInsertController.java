@@ -22,16 +22,18 @@ public class TravelInsertController {
 	
 	@Autowired
 	TravelDao travelDao;
-	// travelList.jsp에서 추가하기 클릭했을때
+	// travelList.jsp
+	// 오호
+	// 어허
 	@RequestMapping(value=command, method=RequestMethod.GET)
 	public String doInsertGet() {
 		
 		return getPage;
 	}
-	// travelInsertForm에서 
+	// travelInsertForm�뿉�꽌 
 	@RequestMapping(value=command, method=RequestMethod.POST)
 	public ModelAndView doInsetPost(@ModelAttribute("travel") @Valid TravelBean tb, BindingResult result) {
-		// @ModelAttribute("travel") 별칭 설정 (jsp가서 쓸 별칭)
+		// @ModelAttribute("travel") 蹂꾩묶 �꽕�젙 (jsp媛��꽌 �벝 蹂꾩묶)
 		ModelAndView mav = new ModelAndView();
 		
 		if(result.hasErrors()) {
