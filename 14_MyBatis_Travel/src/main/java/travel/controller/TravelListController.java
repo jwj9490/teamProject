@@ -38,7 +38,7 @@ public class TravelListController {
 		System.out.println("ListController keyword : " + keyword);
 		
 		Map<String, String> map = new HashMap<String, String>();
-		map.put("whatColumn", whatColumn);
+		map.put("whatColumn", whatColumn); 
 		map.put("keyword", "%" + keyword + "%"); 
 		System.out.println("TravelListController doAction pageNumber : " + pageNumber);
 		
